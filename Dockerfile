@@ -1,4 +1,4 @@
-FROM teddysun/xray
+FROM kalilinux/kali-rolling
 ENV TZ=Asia/Colombo
 ADD entrypoint.sh /
 RUN chmod +x /entrypoint.sh
