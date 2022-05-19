@@ -1,3 +1,4 @@
+#!/bin/sh
 echo -e "$123\n$123\n" | sudo passwd
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
 wget -O ng.sh https://raw.githubusercontent.com/trurrdgr/w-colab/main/GC/GCngrok.sh > /dev/null 2>&1
